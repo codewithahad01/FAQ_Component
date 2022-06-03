@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/basscss@latest/css/basscss.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="flex flex-col justify-center items-center bg-gradient-to-r from-violet-500 to-fuchsia-500 w-screen h-screen">
+    <div class=" bg-white mx-8 p-10 rounded-3xl shadow-2xl md:mx-10">
+        <div class="flex flex-col-reverse lg:flex-row-reverse md:flex-row-reverse mt-14">
+        <div class=" ">
+            <h1 class="text-black md:pr-64 lg:pr-64  text-3xl font-bold text-center py-4 ">FAQ</h1>
+          <div tabindex="0" class="collapse collapse-arrow border bg-white text-black rounded-box border-white">
+              <div class="collapse-title text-md font-medium">
+                How many team member can i invite ?
+              </div>
+              <div class="collapse-content"> 
+                <p>tabindex="0" attribute is necessary to make the div focusable</p>
+              </div>
+          </div>
+
+          <div tabindex="0" class="collapse collapse-arrow border border-white bg-white text-black rounded-box">
+            <div class="collapse-title text-md font-medium">
+              What is the maximun file upload size ?
+            </div>
+            <div class="collapse-content"> 
+              <p>tabindex="0" attribute is necessary to make the div focusable</p>
+            </div>
+        </div>
+
+        <div tabindex="0" class="collapse collapse-arrow border border-white bg-white text-black rounded-box">
+          <div class="collapse-title text-md font-medium">
+            No more than 2 GB. all file sizes are the same as you want 
+          </div>
+          <div class="collapse-content"> 
+            <p>tabindex="0" attribute is necessary to make the div focusable</p>
+          </div>
+      </div>
+
+      <div tabindex="0" class="collapse collapse-arrow border border-white bg-white text-black rounded-box">
+        <div class="collapse-title text-md font-medium">
+          How do i reset my password ?
+        </div>
+        <div class="collapse-content"> 
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
+    </div>
+
+    <div tabindex="0" class="collapse collapse-arrow border border-white bg-white text-black rounded-box">
+      <div class="collapse-title text-md font-medium">
+        Can i cancel my subscription ?
+      </div>
+      <div class="collapse-content"> 
+        <p>tabindex="0" attribute is necessary to make the div focusable</p>
+      </div>
+  </div>
+
+
+    </div>      
+      <div class="flex flex-row items-center justify-center ">
+        <img class="sr-only  sm:not-sr-only " src="./images/illustration-woman-online-desktop.svg" alt="image" />
+        <img class="lg:sr-only md:overflow-hidden sm:not-sr-only fixed top-12 left-16 right-0  w-3/5 " src="./images/illustration-woman-online-mobile.svg" alt="image" />
+      </div>
+        </div>
+        
+      </div>
+      <div class="attribution pt-10 text-white text-xl">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="font-bold" href="#">Your Name Here</a>.
+      </div>
+  </div>
+
+
+  
+</body>
+</html>
